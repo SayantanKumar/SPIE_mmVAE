@@ -15,9 +15,9 @@ Normative modelling is a method for understanding the underlying heterogeneity w
 
 ## Model training
 
-- **dataloaders.py** - dataloader functions for train, test and validation splits
+- **dataloaders.py** - Dataloader functions for train, test and validation splits
   
-- **mvae_POE.py** - architecture for mmVAE
+- **mvae_POE.py** - Implements the architecture for mmVAE including the modality-specific encoders and decoders, Product-of-Experts (PoE), and multimodal ELBO loss function
   
 - **training_multimodal.py** - mmVAE training.
   - Step 1: Train on UKB healthy controls
