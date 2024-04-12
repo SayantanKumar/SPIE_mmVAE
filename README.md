@@ -15,6 +15,18 @@ Normative modelling is a method for understanding the underlying heterogeneity w
 
 ## Model training
 
+- **dataloaders.py** - dataloader functions for train, test and validation splits
+  
+- **mvae_POE.py** - architecture for mmVAE
+  
+- **training_multimodal.py** - mmVAE training.
+  - Step 1: Train on UKB healthy controls
+  - Step 2: Save trained model
+  - Step 3: Load saved model and fine-tune on ADNI healthy controls
+  - Step 4: Calculate deviations on disease subjects in ADNI
+  
+- **training_unimodal.py** - Training unimodal baseline VAE where all modalities are concatenated together into a single input. Steps same as mmVAE training.
+
 ## Performance evaluation
 
 - Sensitivity of deviation maps towards disease staging
