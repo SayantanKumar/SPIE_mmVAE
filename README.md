@@ -22,8 +22,7 @@ Normative modelling is a method for understanding the underlying heterogeneity w
 - Correlation of deviation maps with patient cognition - **correlation_with_cognition.py**
 - Identifying brain regions with abnormal deviations - **significant_regional_deviations.py**
 
-![alt-text-1](Combined_Plots/mean_deviation_maps.png)
-![alt-text-2](Combined_Plots/sig_freq_map.png)
+<img width="50%" height="50%" src="Combined_Plots/mean_deviation_maps.png">
 
 
 ## Citation
