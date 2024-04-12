@@ -1,7 +1,7 @@
 # Overview
 This repository contains official implementation for our paper titled "Normative modeling using multimodal variational autoencoders to identify abnormal brain volume deviations in Alzheimer's disease", published in the proceedings of SPIE Medical Imaging 2023. [[Paper](https://dl.acm.org/doi/pdf/10.1145/3535508.3545547)] [[Slides](https://docs.google.com/presentation/d/13uWGCq-Co8ZOtEEuAgeXzQxv_0F9JK_B/edit#slide=id.p1)]
 
-<img align="center" width="60%" height="100%" src="Combined_Plots/workflow_with_captions.png"> 
+<img align="center" width="65%" height="100%" src="Combined_Plots/Pipeline_extended.png"> 
 Figure 1. Our proposed multimodal normative modeling framework (mmVAE).
 
 ## Abstract
@@ -23,7 +23,7 @@ Normative modelling is a method for understanding the underlying heterogeneity w
 - Identifying brain regions with abnormal deviations - **significant_regional_deviations.py**
 
 <img align="center" width="60%" height="100%" src="Combined_Plots/mean_deviation_maps.png"> 
-Figure 2
+
 <img align="center" width="60%" height="100%" src="Combined_Plots/sig_freq_map.png">
 
 ## Citation
