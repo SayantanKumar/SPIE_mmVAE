@@ -23,9 +23,11 @@ Normative modelling is a method for understanding the underlying heterogeneity w
 - Identifying brain regions with abnormal deviations - **significant_regional_deviations.py**
 
 <img align="center" width="60%" height="100%" src="Combined_Plots/mean_deviation_maps.png"> 
+Figure 2: 
 
 <img align="center" width="60%" height="100%" src="Combined_Plots/sig_freq_map.png">
-
+Figure 3. Frequency of significance: Number of times (%) each cortical and subcortical region volume, derived from T1- weighted MRI data exhibited statistically significant deviations (p < 0.05) across all disease patients in the ADNI test set for both proposed multimodal (top) and baseline (unimodal). The regions with higher frequency of significance across both the models (proposed and baseline) correspond to the regions with abnormal brain deviations. In other words, we can get an idea which of the brain regions have significantly higher deviation in brain volumes due to the progressive stages of AD compared to the other regions.
+  
 ## Citation
 If you find our work is useful in your research, please consider raising a star  :star:  and citing:
 
