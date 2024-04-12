@@ -11,7 +11,17 @@ Normative modelling is a method for understanding the underlying heterogeneity w
 
 # Implementation details
 
-## Data extraction & Feature preprocessing
+## Datasets & Feature extraction
+
+### Datasets
+
+We used the UKBioBank and ADNI datasets in our study. UK Biobank data are available through a procedure described at [http://www.ukbiobank.ac.uk/using-the-resource/](http://www.ukbiobank.ac.uk/using-the-resource/). ADNI data are available through an access procedure described at [http://adni.loni.usc.edu/data-samples/ access-data/](http://adni.loni.usc.edu/data-samples/ access-data/).
+
+### Feature extraction
+
+We used preprocessed brain regions’ volumes from the T1-weighted and T2-weighted MRI images. These brain region volumes were preprocessed through the FreeSurfer software (version 5.1). From T1-weighted MRI and T2-weighted MRI scans, the cortical surface of each hemisphere was parcellated according to the Desikan–Killiany atlas18 and anatomical volumetric measures were obtained via a whole-brain segmentation procedure. The final data included cortical regions(32 per hemisphere), 24 subcortical regions (12 per hemisphere) and 16 hippocampal regions. 
+
+The **UKB_ADNI_data_extraction.py** script implements the complete feature extraction process.
 
 ## Model training
 
