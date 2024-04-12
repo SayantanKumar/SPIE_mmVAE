@@ -59,6 +59,14 @@ Figure 3: Pearson Correlation between patient-level deviations and patient cogni
 
 Figure 4. Frequency of significance: Number of times (%) each cortical and subcortical region volume (**A,B**), derived from T1- weighted MRI data and hippocampal volumes (**C**), derived from T2-weighted MRI (exhibited statistically significant deviations (p < 0.05) across all disease patients in the ADNI test set for both proposed mmVAE and baseline (unimodal VAE). **The regions with higher frequency of significance across both the models (proposed and baseline) correspond to the regions with abnormal brain deviations. In other words, we can get an idea which of the brain regions have significantly higher deviation in brain volumes due to the progressive stages of AD compared to the other regions.**
 
+## Environment & Packages
+
+- We recommend an environment with python >= 3.7 and pytorch >= 1.10.2, and then install the following dependencies:
+```
+pip install -r requirements.txt
+```
+Cortical and subcortical brain atlases were visualized using the ggseg package. The original R implementation can be found [here](https://github.com/ggseg/ggseg). A more recent Python implementation can also be found [here](https://github.com/ggseg/python-ggseg).
+
 ## Acknowledgement
 
 This work was supported by National Institutes of Health (NIH) grant number NIH R01-AG067103.
