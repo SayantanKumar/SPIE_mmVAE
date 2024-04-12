@@ -1,7 +1,9 @@
 # Overview
 This repository contains official implementation for our paper titled "Normative modeling using multimodal variational autoencoders to identify abnormal brain volume deviations in Alzheimer's disease", published in the proceedings of SPIE Medical Imaging 2023. [[Paper](https://dl.acm.org/doi/pdf/10.1145/3535508.3545547)] [[Slides](https://docs.google.com/presentation/d/13uWGCq-Co8ZOtEEuAgeXzQxv_0F9JK_B/edit#slide=id.p1)]
 
-<img align="right" width="65%" height="100%" src="Combined_Plots/Pipeline_extended.png"> 
+<img align="right" width="65%" height="80%" src="Combined_Plots/Pipeline_extended.png"> 
+
+Figure 1: pipeline
 
 ## Abstract
 
