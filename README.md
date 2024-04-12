@@ -16,12 +16,13 @@ Normative modelling is a method for understanding the underlying heterogeneity w
 ## Model training
 
 ## Performance evaluation
-
+```
 - Sensitivity of deviation maps towards disease staging
   - Patient-level deviation maps - **deviation_staging.py**
   - Regional deviation maps - **significant_regional_deviations.py**
 - Correlation of deviation maps with patient cognition - **correlation_with_cognition.py**
 - Identifying brain regions with abnormal deviations - **significant_regional_deviations.py**
+```
 
 <img align="center" width="60%" height="100%" src="Combined_Plots/mean_deviation_maps.png"> 
 
